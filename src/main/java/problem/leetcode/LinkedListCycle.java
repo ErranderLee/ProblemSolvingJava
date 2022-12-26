@@ -1,6 +1,4 @@
-package problem;
-
-import java.util.*;
+package problem.leetcode;
 
 // Definition for singly-linked list.
 class ListNode {

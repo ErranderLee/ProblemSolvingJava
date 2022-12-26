@@ -1,4 +1,4 @@
-package problem;
+package problem.leetcode;
 
 import java.util.Arrays;
 import java.util.Collections;
