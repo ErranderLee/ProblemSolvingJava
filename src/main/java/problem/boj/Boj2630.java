@@ -23,10 +23,8 @@ public class Boj2630 {
         int result = checkSameColor(paper, bx, by, ex, ey);
         if (result == 0) {
             answer[0] += 1;
-            return;
         } else if(result == 1) {
             answer[1] += 1;
-            return;
         } else {
             rec(paper, bx, by, ex - num, ey - num, num / 2, answer);
             rec(paper, bx, by + num, ex - num, ey, num / 2, answer);
@@ -42,7 +40,7 @@ public class Boj2630 {
         return answer;
     }
 
-    public static void main() {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
